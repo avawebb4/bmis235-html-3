@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 340" role="img" aria-labelledby="title desc">
+<title id="title">Rowing shell illustration</title><desc id="desc">A navy rowing shell seen from above on soft blue water, with oars and gentle ripples.</desc>
+<rect width="560" height="340" rx="28" fill="#dcebf3"/>
+<g fill="none" stroke="#a9c9df" stroke-width="7" stroke-linecap="round">
+<path d="M24 76c62-27 98 22 157-1s99-24 154 0 105 23 201-4"/><path d="M-8 263c71-31 112 23 179 0s110-24 169 0 117 25 228-5"/><path d="M66 116c30-12 47-10 70 0m288 106c27-12 45-10 69 0"/>
+</g>
+<ellipse cx="280" cy="174" rx="214" ry="30" fill="#c5a46d" opacity=".35"/>
+<path d="M54 170c58-24 140-35 226-35s168 11 226 35c-58 24-140 35-226 35S112 194 54 170Z" fill="#07203f"/>
+<path d="M83 170c61-14 126-19 197-19s136 5 197 19c-61 14-126 19-197 19s-136-5-197-19Z" fill="#a9c9df"/>
+<path d="M280 139v62" stroke="#f5ece6" stroke-width="4" stroke-linecap="round"/>
+<g stroke="#f5ece6" stroke-width="5" stroke-linecap="round"><path d="M173 153l-44-54m104 48-29-65m76 56-10-70m76 70 10-70m46 79 29-65m15 81 44-54"/></g>
+<g fill="#c5a46d" stroke="#07203f" stroke-width="2"><ellipse cx="125" cy="96" rx="9" ry="19" transform="rotate(-38 125 96)"/><ellipse cx="201" cy="80" rx="9" ry="19" transform="rotate(-24 201 80)"/><ellipse cx="270" cy="66" rx="9" ry="19" transform="rotate(-8 270 66)"/><ellipse cx="290" cy="66" rx="9" ry="19" transform="rotate(8 290 66)"/><ellipse cx="359" cy="80" rx="9" ry="19" transform="rotate(24 359 80)"/><ellipse cx="435" cy="96" rx="9" ry="19" transform="rotate(38 435 96)"/></g>
+<g fill="#f5ece6"><circle cx="173" cy="153" r="5"/><circle cx="229" cy="147" r="5"/><circle cx="270" cy="142" r="5"/><circle cx="290" cy="142" r="5"/><circle cx="331" cy="147" r="5"/><circle cx="387" cy="153" r="5"/></g>
+<path d="M38 49l7 12 13 2-10 9 2 13-12-7-12 7 2-13-10-9 13-2Z" fill="#c5a46d" opacity=".9"/>
+<circle cx="498" cy="283" r="9" fill="#f5ece6"/><circle cx="474" cy="300" r="4" fill="#c5a46d"/>
+</svg>
