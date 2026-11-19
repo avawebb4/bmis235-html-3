@@ -73,3 +73,25 @@ footer {
    padding-top: 15px;
    font-style: italic;
 }
+
+/* Images used on the hobby pages */
+.page-image-wrap {
+    max-width: 600px;
+    margin: 24px auto;
+    text-align: center;
+}
+
+.page-image {
+    display: block;
+    width: 100%;
+    max-height: 340px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.page-image-caption {
+    margin: 8px 0 0;
+    color: #536477;
+    font-size: 12px;
+    line-height: 1.4;
+}
