@@ -76,15 +76,16 @@ footer {
 
 /* Images used on the hobby pages */
 .page-image-wrap {
-    max-width: 420px;
-    margin: 24px auto;
+    width: 280px;
+    max-width: 100%;
+    margin: 20px auto;
     text-align: center;
 }
 
 .page-image {
     display: block;
     width: 100%;
-    max-height: 230px;
+    height: 170px;
     object-fit: cover;
     border-radius: 8px;
 }
