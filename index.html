@@ -36,7 +36,406 @@
      This box is empty on purpose. In Part 7 you paste an interactive
      graphic BETWEEN the opening <div> and the closing </div> below.
      ===================================================================== -->
-<div class="showcase"></div>
+<div class="showcase">
+<!-- HTML: Four interactive rowing fact cards -->
+<div class="showcase-rowing">
+  <section class="showcase-rowing-section">
+    <div class="showcase-rowing-heading">
+      <span class="showcase-rowing-eyebrow">THE SPORT OF ROWING</span>
+      <h2>THE WORLD OF ROWING</h2>
+      <p>Four things you might not know about the sport.</p>
+    </div>
+
+    <div class="showcase-rowing-grid">
+
+      <button class="showcase-rowing-card" type="button"
+        aria-label="Reveal fact about the eight" aria-pressed="false">
+        <span class="showcase-rowing-inner">
+          <span class="showcase-rowing-front">
+            <img src="https://images.unsplash.com/photo-1530053969600-caed2596d242?auto=format&fit=crop&w=700&q=85"
+              alt="Rowing team on the water">
+            <span class="showcase-rowing-number">01</span>
+            <span class="showcase-rowing-card-title">THE EIGHT</span>
+            <span class="showcase-rowing-hint">TAP TO REVEAL ↗</span>
+          </span>
+          <span class="showcase-rowing-back">
+            <span class="showcase-rowing-back-number">01 / THE EIGHT</span>
+            <span class="showcase-rowing-fact">
+              Nine people. One boat.
+            </span>
+            <span class="showcase-rowing-description">
+              An eight-person crew has eight rowers and one coxswain,
+              who steers and directs the boat.
+            </span>
+            <span class="showcase-rowing-flip-hint">↻ FLIP BACK</span>
+          </span>
+        </span>
+      </button>
+
+      <button class="showcase-rowing-card" type="button"
+        aria-label="Reveal fact about sweep and sculling" aria-pressed="false">
+        <span class="showcase-rowing-inner">
+          <span class="showcase-rowing-front">
+            <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=700&q=85"
+              alt="Athlete on the water">
+            <span class="showcase-rowing-number">02</span>
+            <span class="showcase-rowing-card-title">SWEEP VS. SCULLING</span>
+            <span class="showcase-rowing-hint">TAP TO REVEAL ↗</span>
+          </span>
+          <span class="showcase-rowing-back">
+            <span class="showcase-rowing-back-number">02 / THE OARS</span>
+            <span class="showcase-rowing-fact">
+              One oar or two?
+            </span>
+            <span class="showcase-rowing-description">
+              Sweep rowers use one oar each, while scullers use
+              two oars — one in each hand.
+            </span>
+            <span class="showcase-rowing-flip-hint">↻ FLIP BACK</span>
+          </span>
+        </span>
+      </button>
+
+      <button class="showcase-rowing-card" type="button"
+        aria-label="Reveal fact about the coxswain" aria-pressed="false">
+        <span class="showcase-rowing-inner">
+          <span class="showcase-rowing-front">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=700&q=85"
+              alt="Outdoor water and landscape">
+            <span class="showcase-rowing-number">03</span>
+            <span class="showcase-rowing-card-title">THE COXSWAIN</span>
+            <span class="showcase-rowing-hint">TAP TO REVEAL ↗</span>
+          </span>
+          <span class="showcase-rowing-back">
+            <span class="showcase-rowing-back-number">03 / THE COXSWAIN</span>
+            <span class="showcase-rowing-fact">
+              The ninth seat has a big job.
+            </span>
+            <span class="showcase-rowing-description">
+              The coxswain steers, gives commands, calls the race,
+              and helps keep the crew working together.
+            </span>
+            <span class="showcase-rowing-flip-hint">↻ FLIP BACK</span>
+          </span>
+        </span>
+      </button>
+
+      <button class="showcase-rowing-card" type="button"
+        aria-label="Reveal fact about race day" aria-pressed="false">
+        <span class="showcase-rowing-inner">
+          <span class="showcase-rowing-front">
+            <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=700&q=85"
+              alt="Water surface">
+            <span class="showcase-rowing-number">04</span>
+            <span class="showcase-rowing-card-title">RACE DAY</span>
+            <span class="showcase-rowing-hint">TAP TO REVEAL ↗</span>
+          </span>
+          <span class="showcase-rowing-back">
+            <span class="showcase-rowing-back-number">04 / RACE DAY</span>
+            <span class="showcase-rowing-fact">
+              2,000 meters to the finish.
+            </span>
+            <span class="showcase-rowing-description">
+              Most collegiate rowing regattas use a 2,000-meter
+              race course — that's about 1.24 miles.
+            </span>
+            <span class="showcase-rowing-flip-hint">↻ FLIP BACK</span>
+          </span>
+        </span>
+      </button>
+
+    </div>
+    <div class="showcase-rowing-footer">
+      <span>POWERED BY TEAMWORK</span>
+      <span>DISCOVER THE SPORT <span class="showcase-rowing-star">✳</span></span>
+    </div>
+  </section>
+</div>
+
+<style>
+/* CSS: Style the rowing section and create the flipping cards */
+.showcase .showcase-rowing {
+  --row-navy: #07203f;
+  --row-cream: #f5ece6;
+  --row-blue: #a9c9df;
+  --row-gold: #c5a46d;
+  width: 100%;
+  box-sizing: border-box;
+  color: var(--row-navy);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.showcase .showcase-rowing * {
+  box-sizing: border-box;
+}
+
+.showcase .showcase-rowing-section {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 24px 18px 14px;
+  background: var(--row-cream);
+  border-radius: 12px;
+}
+
+.showcase .showcase-rowing-heading {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.showcase .showcase-rowing-eyebrow {
+  display: block;
+  color: #947444;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 6px;
+}
+
+.showcase .showcase-rowing-heading h2 {
+  color: var(--row-navy);
+  font-size: clamp(21px, 4vw, 30px);
+  letter-spacing: 2px;
+  margin: 0 0 5px;
+}
+
+.showcase .showcase-rowing-heading p {
+  color: #536477;
+  font-size: 12px;
+  margin: 0;
+}
+
+.showcase .showcase-rowing-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.showcase .showcase-rowing-card {
+  display: block;
+  width: 100%;
+  height: 220px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  border-radius: 9px;
+  cursor: pointer;
+  perspective: 1000px;
+  text-align: left;
+  color: var(--row-cream);
+  font: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.showcase .showcase-rowing-inner {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.65s ease;
+  border-radius: 9px;
+}
+
+.showcase .showcase-rowing-card.is-flipped .showcase-rowing-inner {
+  transform: rotateY(180deg);
+}
+
+.showcase .showcase-rowing-front,
+.showcase .showcase-rowing-back {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 9px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.showcase .showcase-rowing-front {
+  background: var(--row-navy);
+}
+
+.showcase .showcase-rowing-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 0.83;
+  transition: transform 0.4s ease;
+}
+
+.showcase .showcase-rowing-card:hover .showcase-rowing-front img {
+  transform: scale(1.05);
+}
+
+.showcase .showcase-rowing-front::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(7, 32, 63, 0.95),
+    rgba(7, 32, 63, 0.05) 75%
+  );
+}
+
+.showcase .showcase-rowing-number,
+.showcase .showcase-rowing-card-title,
+.showcase .showcase-rowing-hint {
+  position: absolute;
+  z-index: 1;
+  left: 13px;
+  right: 10px;
+}
+
+.showcase .showcase-rowing-number {
+  top: 13px;
+  color: var(--row-cream);
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+.showcase .showcase-rowing-card-title {
+  bottom: 39px;
+  font-size: clamp(12px, 1.5vw, 16px);
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.showcase .showcase-rowing-hint {
+  bottom: 15px;
+  color: var(--row-blue);
+  font-size: 9px;
+  letter-spacing: 1.5px;
+}
+
+.showcase .showcase-rowing-back {
+  transform: rotateY(180deg);
+  background: var(--row-navy);
+  border: 1px solid rgba(169, 201, 223, 0.5);
+  padding: 16px 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.showcase .showcase-rowing-back-number {
+  color: var(--row-gold);
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  margin-bottom: 14px;
+  font-weight: 700;
+}
+
+.showcase .showcase-rowing-fact {
+  display: block;
+  color: var(--row-cream);
+  font-size: clamp(14px, 1.7vw, 19px);
+  line-height: 1.25;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.showcase .showcase-rowing-description {
+  color: var(--row-blue);
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+.showcase .showcase-rowing-flip-hint {
+  color: var(--row-gold);
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  margin-top: 15px;
+}
+
+.showcase .showcase-rowing-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 13px;
+  color: #536477;
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+}
+
+.showcase .showcase-rowing-star {
+  color: var(--row-gold);
+  font-size: 13px;
+}
+
+.showcase .showcase-rowing-card:focus-visible {
+  outline: 3px solid var(--row-gold);
+  outline-offset: 4px;
+}
+
+/* Responsive layout for phones and smaller screens */
+@media (max-width: 650px) {
+  .showcase .showcase-rowing-section {
+    padding: 20px 12px 12px;
+  }
+
+  .showcase .showcase-rowing-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .showcase .showcase-rowing-card {
+    height: 185px;
+  }
+
+  .showcase .showcase-rowing-back {
+    padding: 12px 10px;
+  }
+
+  .showcase .showcase-rowing-fact {
+    font-size: 15px;
+  }
+
+  .showcase .showcase-rowing-description {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .showcase .showcase-rowing-card {
+    height: 170px;
+  }
+
+  .showcase .showcase-rowing-footer {
+    font-size: 8px;
+  }
+}
+
+/* Reduced motion accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .showcase .showcase-rowing-inner,
+  .showcase .showcase-rowing-front img {
+    transition: none;
+  }
+}
+</style>
+
+<script>
+/* JavaScript: Flip cards when clicked or tapped */
+(function () {
+  const cards = document.querySelectorAll(
+    '.showcase .showcase-rowing-card'
+  );
+
+  cards.forEach(function (card) {
+    card.addEventListener('click', function () {
+      const flipped = card.classList.toggle('is-flipped');
+      card.setAttribute('aria-pressed', String(flipped));
+    });
+  });
+})();
+</script>
+</div>
 
 <!-- Footer: fill in your name -->
 <footer>Built by Ava Webb &middot; BMIS 235 <a href="mailto:awebb4@zagmail.gonzaga.edu">Email me</a></footer>
