@@ -51,7 +51,9 @@ h1 {
     color: #07203f;
     text-align: center;
     font-size: 40px;
-   letter-spacing: 2px;
+   
+}
+h1 {
     text-transform: uppercase;
 }
 
