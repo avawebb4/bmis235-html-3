@@ -32,6 +32,13 @@ nav img {
     margin: 4px;
     vertical-align: middle;
 }
+nav img {
+    transition: transform 0.2s ease;
+}
+
+nav a:hover img {
+    transform: scale(1.08);
+}
 
 /* no underline or border around the image links */
 nav a {
