@@ -35,7 +35,9 @@ nav img {
 
 /* no underline or border around the image links */
 nav a {
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: #2b5d8c;
+    text-decoration-thickness: 3px;
 }
 
 h1 {
